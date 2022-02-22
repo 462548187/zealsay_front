@@ -66,7 +66,7 @@ export default {
     { src: '@/plugins/chartist', ssr: true },
     { src: '@/plugins/vue-perfect-scrollbar', ssr: false },
     { src: '@/plugins/vue-scroll-reveal', ssr: false },
-    { src: '@/plugins/vue-type', ssr: false },
+    // { src: '@/plugins/vue-type', ssr: false },
     { src: '@/plugins/vue-mavon-editor', srr: false },
     { src: '@/plugins/vue-cropper', ssr: false }
   ],
@@ -149,7 +149,7 @@ export default {
     credentials: true, // 表示跨域请求时候是否需要携带凭证
     retry: { retries: 3 }, // 超时重试3次
     progress: false, // 请求的时候是否加载loading页面
-    debug: false // 开启调试，线上关闭
+    debug: true // 开启调试，线上关闭
   },
 
   proxy: {
